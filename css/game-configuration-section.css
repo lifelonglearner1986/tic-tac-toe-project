@@ -1,0 +1,55 @@
+#game-configuration {
+    width: 30rem;
+    margin: 0 auto;
+}
+
+#game-configuration ol {
+    list-style: none;
+    padding: 1rem 0 0 0;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#game-configuration li {
+    background-color: blueviolet;
+    box-shadow: 1px 1px 2px 2px rgb(173, 166, 166);
+    border-radius: 4px;
+    width: 45%;
+    margin: 0;
+    padding: 0;
+}
+
+#game-configuration h2, #game-configuration h3, #game-configuration h4 {
+    margin: 0;
+    padding: 0.1rem;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: inherit;
+}
+
+#game-configuration h2 {
+    font-size: small;
+    font-weight: bold;
+    color: white;
+}
+
+#game-configuration .btn-alt {
+    font-family: inherit;
+    margin: 0.5rem 0;
+    color: white;
+}
+
+#start-new-game-button {
+    margin: 0 auto;
+    display: block;
+    background-color: blueviolet;
+}
+
+#start-new-game-div {
+    padding: 0.5rem 0 0.1rem 0;
+}
